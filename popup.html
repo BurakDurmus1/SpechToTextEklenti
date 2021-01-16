@@ -1,0 +1,74 @@
+<html>
+<head>
+<meta charset="utf-8"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script src="jquery.min.js"></script>
+		
+	<body bgcolor="grey">
+      
+</head>
+<body>
+
+   <!-- <h3>Speech To Text</h3>
+	kayıt duraklatma komutu : <input type="text" id="stopCmd" name="stopCmd" placeholder="duraklat"/>
+	<br>
+	<br>
+	<input type="text" id="key1" name="key1" placeholder="şifremi gir"/>
+	<input type="password" id="val1" name="val1" placeholder="password"/>
+	<input type="button" id="toggle_button2" value="Kaydet" />
+	<input type="text" id="key2" name="key2" placeholder="komut"/>
+	<input type="text" id="val2" name="val2" placeholder="karşılık"/>
+	<input type="button" id="toggle_button3" value="Kaydet" />
+	
+	
+	-->
+	<ul class="nav nav-tabs" style="align:center" >
+  <li class="active" style=" margin-left:50px; padding-left:15px; padding-right:15px; border-style:solid; border-color:black;"><a data-toggle="tab" href="#home">Dil</a></li>
+  <li style=" padding-left:15px; padding-right:15px;  border-style:solid; border-color:black;"><a data-toggle="tab" href="#menu1">Komut</a></li>
+  <li style=" padding-left:15px; padding-right:15px;  border-style:solid; border-color:black;"><a data-toggle="tab" href="#menu2">Yazım</a></li>
+</ul>
+
+<div class="tab-content">
+  <div id="home" class="tab-pane fade in active">
+    <h3>HOME</h3>
+    <p>Some content.</p>
+  </div>
+  <div id="menu1" class="tab-pane fade">
+    <h3>Menu 1</h3>
+    <p>Some content in menu 1.</p>
+  </div>
+  <div id="menu2" class="tab-pane fade">
+    <h3>Menu 2</h3>
+    <p>Some content in menu 2.</p>
+  </div>
+</div>
+	<div class="container" style="min-width:400px;">
+	<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Anahtar Kelime</label>
+	<input type="text" id="key2" name="key2" placeholder="komut"/>
+ 
+    <!--<small id="emailHelp" class="form-text text-muted"></small>-->
+  </div>
+  <div class="form-group">
+		<label for="exampleInputPassword1">Değer</label>
+		<input type="text" id="key1" name="key1" placeholder="şifremi gir"/>
+    
+    
+  </div>
+  <!--<div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>-->
+  <button type="submit" id="gonder" class="btn btn-primary">Gönder</button>
+  <hr>
+    <input type="button" id="toggle_button" value="Disable" />
+    <hr>
+</form>
+	</div>
+</body>
+        <script src="popup.js"></script>
+</html>
